@@ -1,0 +1,14 @@
+{
+  "incident": {"name": "air", "n": 1.0},
+  "substrate": {"name": "glass", "n": 1.52},
+  "layers": [
+    {"material": {"name": "MgF2", "n": 1.38}, "thickness_nm": 99.64},
+    {
+      "material": {
+        "name": "TiO2",
+        "table": [[400.0, 2.45], [550.0, 2.35], [700.0, 2.28]]
+      },
+      "thickness_nm": 58.5
+    }
+  ]
+}
