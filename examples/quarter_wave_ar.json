@@ -1,0 +1,19 @@
+{
+  "incident": {"name": "air", "n": 1.0},
+  "substrate": {
+    "name": "bk7",
+    "n": {
+      "wavelengths_nm": [400.0, 500.0, 600.0, 700.0],
+      "n": [1.5308, 1.5214, 1.5163, 1.5131]
+    }
+  },
+  "layers": [
+    {"name": "mgf2", "n": 1.38, "thickness_nm": 99.64}
+  ],
+  "wavelengths_nm": [400.0, 450.0, 500.0, 550.0, 600.0, 650.0, 700.0],
+  "optimize": {
+    "layer_index": 0,
+    "wavelength_nm": 550.0,
+    "candidates_nm": [90.0, 95.0, 99.64, 105.0, 110.0]
+  }
+}
